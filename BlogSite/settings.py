@@ -25,7 +25,7 @@ SECRET_KEY = 'v6m1rf@6=z0guv!xsw3=c1jmxopt2^h=#!)q#)k6ol(n*tl=qf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [blog-abhi10001k.herokuapp.com]
+ALLOWED_HOSTS = ['blog-abhi10001k.herokuapp.com']
 
 
 # Application definition
@@ -81,12 +81,12 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'BLOG',
-        'USER' : 'root',
-        'PASSWORD' : 'abhi10001k'
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME' : 'BLOG',
+    #     'USER' : 'root',
+    #     'PASSWORD' : 'abhi10001k'
+    # }
 }
 
 
